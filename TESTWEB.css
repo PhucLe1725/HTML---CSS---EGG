@@ -5,11 +5,7 @@
 }
 
 .wrapper{
-    background-image: url(Hero.png);
-    height: 100vh;
-    background-position: top;
-    background-size: cover; 
-    background-repeat: no-repeat;
+    
 }
 
 .header{
@@ -55,7 +51,12 @@
 .banner{
     padding: 160px 720px 400px 200px;
     display: flex;
-    overflow-wrap: break-word
+    overflow-wrap: break-word;
+    background-image: url(Hero.png);
+    height: 100vh;
+    background-position: top;
+    background-size: cover; 
+    background-repeat: no-repeat;
 }
 
 .banner .banner_content h6{
@@ -73,22 +74,221 @@
 }
 
 .banner .banner_content .button-group a {
-    display: inline-block; /* Đảm bảo hai nút nằm trên cùng một dòng */
-    margin: 40px 10px; /* Khoảng cách giữa hai nút */
+    display: inline-block; 
+    margin: 40px 10px; 
     font-family: 'Roboto', sans-serif;
-    text-decoration: none; /* Loại bỏ gạch chân mặc định */
-    border-radius: 5px; /* Bo tròn các góc viền */
+    text-decoration: none; 
+    border-radius: 5px;
     padding: 10px 40px;
     font-size: 16px;
 }
 
 .banner_Purchase {
     color: white;
-    background-color: #111B47; /* Màu nền xanh đậm */
+    background-color: #111B47;
 }
 
 .banner_LearnMore {
-    color: #111B47; /* Màu chữ và viền xanh đậm */
+    color: #111B47; 
     border: 2px solid #111B47;
-    background-color: transparent; /* Nền trong suốt */
+    background-color: transparent; 
+}
+
+.banner_2{
+    padding: 160px 720px 400px 200px;
+    display: flex;
+    overflow-wrap: break-word;
+    background-image: url(TESTWEB_1.png);
+    height: 100vh;
+    background-position: top;
+    background-size: auto; 
+    background-repeat: no-repeat;
+}
+
+.banner_2 .banner_content h6{
+    color: #091133;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.banner_2 .banner_content p{
+    color: #6F7CB2;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    margin-right: 10px;
+}
+
+.banner_2 .banner_content .banner_Scontent {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.info-box {
+    width: 45%;
+    text-align: left;
+}
+
+.icon {
+    width: 36px;
+    height:36px;
+    margin-bottom: 12px;
+}
+
+.banner_2 .banner_content .banner_Scontent .info-box .style1 {
+    color: #091133;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px; 
+    margin-bottom: 12px;
+}
+
+.banner_2 .banner_content .banner_Scontent .info-box .style2 {
+    color: #5D6970;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.banner_2 .banner_content .banner_Scontent .info-box .style3 {
+    color: #091133;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    margin-bottom: 12px;
+}
+
+.banner_2 .banner_content .banner_Scontent .info-box .style4 {
+    color: #5D6970;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.banner_3{
+    padding: 160px 170px 400px 850px;
+    overflow-wrap: break-word;
+    background-image: url(TESTWEB_2.png);
+    height: 100vh;
+    background-position: top;
+    background-size: auto; 
+    background-repeat: no-repeat;
+}
+
+.banner_3 .banner_content h6{
+    color: #091133;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.banner_3 .banner_content p{
+    color: #6F7CB2;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    margin-right: 10px;
+}
+
+.banner_3_Purchase{
+    display: inline-block; 
+    margin: 40px 0; 
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none; 
+    border-radius: 5px;
+    padding: 10px 40px;
+    font-size: 16px;
+    color: white;
+    background-color: #111B47;
+}
+
+.banner_4 {
+    padding: 0;
+    overflow-wrap: break-word;
+    background-image: url(Bg_4.png);
+    height: 100vh;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.banner_4 .banner_content h6 {
+    color: #091133;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.banner_4 .banner_content .style5 {
+    color: #6F7CB2;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 0 auto; 
+    max-width: 600px;
+}
+
+.banner_4 .banner_content .style6 {
+    color: #222F65;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 66px;
+    margin: 0 auto; 
+    max-width: 600px;
+}
+
+.banner_4 .banner_content .style7 {
+    color: #37447E;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    margin: 0 auto; 
+    max-width: 600px;
+}
+
+.banner_4 .banner_content .style8 {
+    color: #222F65;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    margin: 0 auto; 
+    max-width: 600px;
+    margin-top: 40px;
+}
+
+.button-group {
+    margin-top: 5px; 
+}
+
+.banner_4_Purchase {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px 40px;
+    font-size: 16px;
+    color: white;
+    background-color: #111B47;
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+}
+
+.footer img {
+    max-width: 100%; 
+    height: auto;
+    margin: 0 auto; /* Căn giữa ảnh nếu có giới hạn chiều rộng */
 }
