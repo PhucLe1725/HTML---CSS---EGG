@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    background-image: url(Hero.png);
+    height: 100vh;
+    background-position: top;
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 165px;
+}
+
+.header .header_menu{
+    display: flex;
+    list-style-type: none;
+}
+
+.header .header_logo{
+    color: #37447E;
+    display: flex;
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.header .header_menu a{
+    color: #505F98;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.header .header_BuyNow a{
+    color: white;
+    text-decoration: none;
+    background-color: #111B47;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px; /* Bo tròn các góc viền */
+    padding: 8px 80px;
+    font-size: 12px;
+}
+
+.banner{
+    padding: 160px 720px 400px 200px;
+    display: flex;
+    overflow-wrap: break-word
+}
+
+.banner .banner_content h6{
+    color: #091133;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.banner .banner_content p{
+    color: #505F98;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.banner .banner_content .button-group a {
+    display: inline-block; /* Đảm bảo hai nút nằm trên cùng một dòng */
+    margin: 40px 10px; /* Khoảng cách giữa hai nút */
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none; /* Loại bỏ gạch chân mặc định */
+    border-radius: 5px; /* Bo tròn các góc viền */
+    padding: 10px 40px;
+    font-size: 16px;
+}
+
+.banner_Purchase {
+    color: white;
+    background-color: #111B47; /* Màu nền xanh đậm */
+}
+
+.banner_LearnMore {
+    color: #111B47; /* Màu chữ và viền xanh đậm */
+    border: 2px solid #111B47;
+    background-color: transparent; /* Nền trong suốt */
+}
