@@ -282,13 +282,74 @@
     background-color: #111B47;
 }
 
-.footer {
-    width: 100%;
-    text-align: center;
+.footer{
+    background-color: #E7ECFF;
 }
 
-.footer img {
-    max-width: 100%; 
-    height: auto;
-    margin: 0 auto; /* Căn giữa ảnh nếu có giới hạn chiều rộng */
+.footer_1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 165px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1); /* Gạch mờ ngăn cách */
+}
+
+.footer_1 .footer_company{
+    color: #939EA4;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.footer_1 .footer_logo{
+    color: #37447E;
+    display: flex;
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center; /* Căn giữa chữ */
+}
+
+.footer_1 .footer_Purchase a{
+    color: white;
+    text-decoration: none;
+    background-color: #111B47;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px; /* Bo tròn các góc viền */
+    padding: 8px 20px;
+    font-size: 12px;
+}
+
+.footer_2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 165px;
+}
+
+.footer_2 .footer_menu{
+    display: flex;
+    list-style-type: none;
+}
+
+.footer_2 .footer_menu a{
+    color: #505F98;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.footer_social{
+    display: flex;
+    list-style-type: none;
+}
+
+.footer_social a img {
+    border: none;
+    display: block;
+    padding: 0px 15px;
 }
